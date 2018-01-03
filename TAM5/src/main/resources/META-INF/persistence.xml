@@ -2,6 +2,12 @@
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="MSD">
 		<jta-data-source>java:/ORCLFeaaMSD</jta-data-source>
+		<class>org.app.service.entities.Benefit</class>
+		<class>org.app.service.entities.Departament</class>
+		<class>org.app.service.entities.Employee</class>
+		<class>org.app.service.entities.Evaluation</class>
+		<class>org.app.service.entities.Position</class>
+		<class>org.app.service.entities.TypeBenefit</class>
 		
       <properties>
          <!-- <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>  -->
